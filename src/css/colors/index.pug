@@ -1,0 +1,65 @@
+extends ../../_component/layout/template
+
+block cool-config
+  -
+    var myTitle = 'Learn to code CSS Colors for beginners'
+    var myDescription = 'Colors in CSS are easy to use.'
+    var landingPage = 'CSS';
+    var activeLink = '/css/colors';
+
+block awesome-content
+  h1=title
+  p=description
+  h2 Example
+  h3 Color Names
+  p Colors set by using color names:
+  table(width="100%")
+    tr
+      td(bgcolor="red", width="50%")
+      td red
+    tr
+      td(bgcolor="green", width="50%")
+      td green
+    tr
+      td(bgcolor="blue", width="50%")
+      td blue
+    tr
+      td(bgcolor="orange", width="50%")
+      td orange
+    tr
+      td(bgcolor="yellow", width="50%")
+      td yellow
+    tr
+      td(bgcolor="cyan", width="50%")
+      td cyan
+    tr
+      td(bgcolor="black", width="50%")
+      td black
+  h3 Try it yourself
+  div(style="background-color:red")
+    h1(style="color:white") Heading
+  div(style="background-color:yellow")
+    h1(style="color:blue") Heading
+  div(style="background-color:blue")
+    h1(style="color:yellow") Heading
+  h3 RGB (Red, Green, Blue)
+  p Colors set by using this formula rgb(red, green, blue):
+  table(width="100%")
+    tr
+      td(style="background-color: rgb(255,0,0)", width="50%")
+      td rgb(255,0,0)
+    tr
+      td(style="background-color: rgb(0,255,0)", width="50%")
+      td rgb(0,255,0)
+    tr
+      td(style="background-color: rgb(0,0,255)", width="50%")
+      td rgb(0,0,255)
+    tr
+      td(style="background-color: rgb(255,165,0)", width="50%")
+      td rgb(255,165,0)
+    tr
+      td(style="background-color: rgb(255,255,0)", width="50%")
+      td rgb(255,255,0)
+    tr
+      td(style="background-color: rgb(0,255,255)", width="50%")
+      td rgb(0,255,255)

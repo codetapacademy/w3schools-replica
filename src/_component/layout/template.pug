@@ -1,0 +1,15 @@
+doctype html
+html
+  //- - var baseUrl = 'http://localhost:3000'
+  - var baseUrl = 'https://codetapio.github.io/w3schools-replica'
+  block cool-config
+  head
+    title=myTitle
+    meta(name="description", content=myDescription)
+    link(rel="stylesheet", href=`${baseUrl}/style.css`)
+  body
+    include ../header/header
+    article
+      block awesome-content
+    include ../nav/nav
+    include ../footer/footer
