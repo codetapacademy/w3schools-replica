@@ -1,18 +1,9 @@
-extends _component/layout/template
-
-block cool-config
-  -
-    var myTitle = 'Learn to code HTML, CSS and JavaScript';
-    var myDescription = 'This is a HTML replica of w3schools.com';
-    var landingPage = 'Home';
-    var activeLink = '';
-
-block awesome-content
-  h1 This is a replica of w3schools.com
-  p I'll go through all possible HTML elements as well as CSS to gain knowledge quicker and get used to writing and producing styled HTML pages.
-  h2 HTML
-  p The language for building web pages.  #[a(href="/html") Check it out!]
-  h2 CSS
-  p The language for styling web pages. #[a(href="/css") See awesomeness happening!]
-  h2 JavaScript
-  p The language for programming web pages. #[a(href="/javascript") Discover the way up!]
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+  body 
+    h1 content
